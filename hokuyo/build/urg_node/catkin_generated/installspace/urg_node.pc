@@ -1,0 +1,8 @@
+prefix=/home/neil/hokuyo/install
+
+Name: urg_node
+Description: Description of urg_node
+Version: 0.1.10
+Cflags: -I/home/neil/hokuyo/install/include
+Libs: -L/home/neil/hokuyo/install/lib -lurg_c_wrapper -lurg_node_driver
+Requires: dynamic_reconfigure laser_proc message_runtime nodelet rosconsole roscpp sensor_msgs std_msgs std_srvs urg_c

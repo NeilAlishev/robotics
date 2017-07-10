@@ -1,0 +1,2 @@
+urg_node
+-DCATKIN_DEVEL_PREFIX=/home/neil/hokuyo/devel -DCMAKE_INSTALL_PREFIX=/home/neil/hokuyo/install -G Unix Makefiles
