@@ -1,0 +1,2 @@
+engineer_nav
+-DCATKIN_DEVEL_PREFIX=/home/neil/robotics/robotics/engineer/devel -DCMAKE_INSTALL_PREFIX=/home/neil/robotics/robotics/engineer/install -G Unix Makefiles
