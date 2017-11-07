@@ -257,14 +257,29 @@ actionlib_DIR:PATH=/opt/ros/indigo/share/actionlib/cmake
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/indigo/share/actionlib_msgs/cmake
 
+//The directory containing a CMake configuration file for bond.
+bond_DIR:PATH=/opt/ros/indigo/share/bond/cmake
+
+//The directory containing a CMake configuration file for bondcpp.
+bondcpp_DIR:PATH=/opt/ros/indigo/share/bondcpp/cmake
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/indigo/share/catkin/cmake
+
+//The directory containing a CMake configuration file for class_loader.
+class_loader_DIR:PATH=/opt/ros/indigo/share/class_loader/cmake
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/indigo/share/cpp_common/cmake
 
 //The directory containing a CMake configuration file for dynamic_reconfigure.
 dynamic_reconfigure_DIR:PATH=/opt/ros/indigo/share/dynamic_reconfigure/cmake
+
+//Value Computed by CMake
+engineer_2dnav_BINARY_DIR:STATIC=/home/neil/robotics/robotics/engineer/build/engineer_2dnav
+
+//Value Computed by CMake
+engineer_2dnav_SOURCE_DIR:STATIC=/home/neil/robotics/robotics/engineer/src/engineer_2dnav
 
 //Value Computed by CMake
 engineer_nav_BINARY_DIR:STATIC=/home/neil/robotics/robotics/engineer/build/engineer_nav
@@ -312,8 +327,11 @@ gtest_force_shared_crt:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
+//The directory containing a CMake configuration file for laser_proc.
+laser_proc_DIR:PATH=/opt/ros/indigo/share/laser_proc/cmake
+
 //Path to a library.
-lib:FILEPATH=/opt/ros/indigo/lib/libtf2.so
+lib:FILEPATH=/opt/ros/indigo/lib/libliburg_c.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/indigo/share/message_filters/cmake
@@ -324,14 +342,41 @@ message_generation_DIR:PATH=/opt/ros/indigo/share/message_generation/cmake
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/indigo/share/message_runtime/cmake
 
+//The directory containing a CMake configuration file for move_base.
+move_base_DIR:PATH=/opt/ros/indigo/share/move_base/cmake
+
 //The directory containing a CMake configuration file for move_base_msgs.
 move_base_msgs_DIR:PATH=/opt/ros/indigo/share/move_base_msgs/cmake
+
+//Value Computed by CMake
+my_hector_mapping_BINARY_DIR:STATIC=/home/neil/robotics/robotics/engineer/build/my_hector_mapping
+
+//The directory containing a CMake configuration file for my_hector_mapping.
+my_hector_mapping_DIR:PATH=/home/neil/robotics/robotics/engineer/devel/share/my_hector_mapping/cmake
+
+//Value Computed by CMake
+my_hector_mapping_SOURCE_DIR:STATIC=/home/neil/robotics/robotics/engineer/src/my_hector_mapping
+
+//Value Computed by CMake
+my_laser_matcher_BINARY_DIR:STATIC=/home/neil/robotics/robotics/engineer/build/my_laser_matcher
+
+//The directory containing a CMake configuration file for my_laser_matcher.
+my_laser_matcher_DIR:PATH=/home/neil/robotics/robotics/engineer/devel/share/my_laser_matcher/cmake
+
+//Value Computed by CMake
+my_laser_matcher_SOURCE_DIR:STATIC=/home/neil/robotics/robotics/engineer/src/my_laser_matcher
 
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/indigo/share/nav_msgs/cmake
 
+//The directory containing a CMake configuration file for nodelet.
+nodelet_DIR:PATH=/opt/ros/indigo/share/nodelet/cmake
+
 //The directory containing a CMake configuration file for orocos_kdl.
 orocos_kdl_DIR:PATH=/opt/ros/indigo/share/orocos_kdl
+
+//The directory containing a CMake configuration file for pluginlib.
+pluginlib_DIR:PATH=/opt/ros/indigo/share/pluginlib/cmake
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/indigo/share/rosconsole/cmake
@@ -351,6 +396,12 @@ rosgraph_DIR:PATH=/opt/ros/indigo/share/rosgraph/cmake
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/indigo/share/rosgraph_msgs/cmake
 
+//The directory containing a CMake configuration file for roslib.
+roslib_DIR:PATH=/opt/ros/indigo/share/roslib/cmake
+
+//The directory containing a CMake configuration file for rospack.
+rospack_DIR:PATH=/opt/ros/indigo/share/rospack/cmake
+
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/opt/ros/indigo/share/rospy/cmake
 
@@ -360,8 +411,14 @@ rostime_DIR:PATH=/opt/ros/indigo/share/rostime/cmake
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/indigo/share/sensor_msgs/cmake
 
+//The directory containing a CMake configuration file for smclib.
+smclib_DIR:PATH=/opt/ros/indigo/share/smclib/cmake
+
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/indigo/share/std_msgs/cmake
+
+//The directory containing a CMake configuration file for std_srvs.
+std_srvs_DIR:PATH=/opt/ros/indigo/share/std_srvs/cmake
 
 //The directory containing a CMake configuration file for tf2.
 tf2_DIR:PATH=/opt/ros/indigo/share/tf2/cmake
@@ -377,6 +434,12 @@ tf2_ros_DIR:PATH=/opt/ros/indigo/share/tf2_ros/cmake
 
 //The directory containing a CMake configuration file for tf.
 tf_DIR:PATH=/opt/ros/indigo/share/tf/cmake
+
+//The directory containing a CMake configuration file for urg_c.
+urg_c_DIR:PATH=/opt/ros/indigo/share/urg_c/cmake
+
+//The directory containing a CMake configuration file for urg_node.
+urg_node_DIR:PATH=/home/neil/hokuyo/devel/share/urg_node/cmake
 
 //The directory containing a CMake configuration file for visualization_msgs.
 visualization_msgs_DIR:PATH=/opt/ros/indigo/share/visualization_msgs/cmake
@@ -486,7 +549,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=3
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

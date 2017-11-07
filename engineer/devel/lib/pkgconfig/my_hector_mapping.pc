@@ -1,0 +1,8 @@
+prefix=/home/neil/robotics/robotics/engineer/devel
+
+Name: my_hector_mapping
+Description: Description of my_hector_mapping
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/neil/robotics/robotics/engineer/devel/lib 
+Requires: 
