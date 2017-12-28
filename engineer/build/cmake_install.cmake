@@ -119,6 +119,7 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   INCLUDE("/home/neil/robotics/robotics/engineer/build/gtest/cmake_install.cmake")
   INCLUDE("/home/neil/robotics/robotics/engineer/build/my_hector_mapping/cmake_install.cmake")
   INCLUDE("/home/neil/robotics/robotics/engineer/build/my_laser_matcher/cmake_install.cmake")
+  INCLUDE("/home/neil/robotics/robotics/engineer/build/ROS-Qt5-Engineer/cmake_install.cmake")
   INCLUDE("/home/neil/robotics/robotics/engineer/build/engineer_nav/cmake_install.cmake")
   INCLUDE("/home/neil/robotics/robotics/engineer/build/engineer_2dnav/cmake_install.cmake")
 

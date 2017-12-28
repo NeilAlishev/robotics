@@ -233,6 +233,18 @@ Project_BINARY_DIR:STATIC=/home/neil/robotics/robotics/engineer/build
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=/home/neil/robotics/robotics/engineer/src
 
+//The directory containing a CMake configuration file for Qt5Core.
+Qt5Core_DIR:PATH=/home/neil/Qt/5.9.3/gcc_64/lib/cmake/Qt5Core
+
+//The directory containing a CMake configuration file for Qt5Gui.
+Qt5Gui_DIR:PATH=/home/neil/Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui
+
+//The directory containing a CMake configuration file for Qt5Network.
+Qt5Network_DIR:PATH=/home/neil/Qt/5.9.3/gcc_64/lib/cmake/Qt5Network
+
+//The directory containing a CMake configuration file for Qt5Widgets.
+Qt5Widgets_DIR:PATH=/home/neil/Qt/5.9.3/gcc_64/lib/cmake/Qt5Widgets
+
 //Path to a library.
 RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
 
@@ -377,6 +389,12 @@ orocos_kdl_DIR:PATH=/opt/ros/indigo/share/orocos_kdl
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/indigo/share/pluginlib/cmake
+
+//Value Computed by CMake
+ros_qt_controller_BINARY_DIR:STATIC=/home/neil/robotics/robotics/engineer/build/ROS-Qt5-Engineer
+
+//Value Computed by CMake
+ros_qt_controller_SOURCE_DIR:STATIC=/home/neil/robotics/robotics/engineer/src/ROS-Qt5-Engineer
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/indigo/share/rosconsole/cmake
@@ -549,7 +567,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=6
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

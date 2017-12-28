@@ -7,5 +7,6 @@
 SUBDIRS(gtest)
 SUBDIRS(my_hector_mapping)
 SUBDIRS(my_laser_matcher)
+SUBDIRS(ROS-Qt5-Engineer)
 SUBDIRS(engineer_nav)
 SUBDIRS(engineer_2dnav)
